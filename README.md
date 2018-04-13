@@ -1,2 +1,2 @@
 # Wunderman Academy Project
-This is a training web site.
+This is a training web site. 
