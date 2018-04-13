@@ -1,3 +1,6 @@
+*html {
+    overflow: auto;
+}
 /* Margin & Padding Style
 *************************/
 .mb20 { margin-bottom: 20px; }
