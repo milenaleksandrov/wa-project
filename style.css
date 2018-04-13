@@ -1,0 +1,161 @@
+/* Margin & Padding Style
+*************************/
+.mb20 { margin-bottom: 20px; }
+.mb60 { margin-bottom: 60px; }
+.pt40 { padding: 0 0 40px 0; }
+
+/* Header banner
+******************/
+.bg-header {
+    background: transparent url("https://stratisplatform.com/wp-content/uploads/2016/08/Slider_Token-1-1920x400.jpg") ;
+     background-size: cover;
+     background-repeat: no-repeat;
+    display: flex;
+}
+.headerMain {
+    padding: 80px 0;
+    color: #fff;
+}
+.headerMain h1 {
+    font-size: 57px;
+}
+.textCont {
+    padding: 40px 0;
+    color: #fff;
+}
+.navbarW {
+    padding: 40px 0 30px 0;
+    border-top: 10px solid #1483CE;
+}
+a.navbarLogo {
+    position: relative;
+    top: -10px;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0;
+}
+    /* Navigation
+    ******************/
+    .navbar-nav>li>a {
+        color: #616161;
+        font-weight: bold;
+    }
+    .navbar-nav li.active a{
+        color: #1483CE;
+    }
+    .nav>li>a:hover, .nav>li>a:focus {
+        background: none;
+        color: #1483CE;
+    }
+    .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+        background: none;
+    }
+    .navbar-header .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #ffffff;
+    }
+    .navbar-header .navbar-toggle {
+        border-color: #1483CE;
+    }
+    .navbar-header .navbar-toggle .icon-bar {
+        background-color: #1483CE;
+    }/*.end */
+    /* Key Title & Content
+    ******************/
+    .keyContentTitle {
+        color: #1483CE;
+        font-size: 22px;
+    }
+
+    .key-title {
+        color: #1483CE;
+        font-size: 35px;
+        font-weight: 300;
+        padding: 40px 0;
+    }/*.end */
+/*.end */
+/* Faces Style
+*****************/
+.facesBg {
+    background-color: #EEEDF2;
+}
+.boxFaces {
+    background-color: #ffffff;
+}
+.imgFaces {
+    margin: 0 auto;
+}
+.facesTitle {
+    color: #1483CE;
+    font-size: 35px;
+    font-weight: 300;
+}
+.caption h4{
+    color: #1483CE;
+}/*.end */
+
+/* Footer Style
+*****************/
+footer {
+    padding: 30px 0;
+    background: #1483CE;
+}
+.footerContentTitle {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 30px;
+}/*.end */
+    /* Copyrights
+    *****************/
+    .copyrightsBgGrey {
+        background: #424242;
+        color: #fff;
+        padding: 30px 0;
+        margin: 0 !important;
+    }
+    p.footerCopyrights,
+    p.footerSitenmae {
+        font-size: 13px;
+    }/*.end */
+
+/* Quck links
+*****************/
+ul.quick-links {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+.quick-links li {
+    padding: 6px 0;
+}
+.quick-links li a {
+    color: #fff;
+}
+.thumbnail {
+    padding: 10px !important;
+    border-radius: 0 !important;
+}/*.end */
+
+/* Address Style
+*****************/
+address,
+address a {
+    color: #fff;
+}
+.contactDetails {
+    color: #fff;
+}
+/*.end */
+/* Small devices (tablets, 768px and up) */
+@media(max-width:767px){
+    /* Footer Copyrigths & Sitename Style
+    **************************************/
+    .footerBgGrey {
+       padding: 20px;
+    }
+    p.footerCopyrights,
+    p.footerSitenmae{
+        text-align: center;
+    }/*.end */
+}
+
