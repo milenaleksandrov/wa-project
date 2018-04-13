@@ -1,2 +1,2 @@
-# wa-project
-Wunderman Academy Project
+# Wunderman Academy Project
+This is a training web site.
